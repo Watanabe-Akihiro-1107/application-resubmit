@@ -1,0 +1,13 @@
+<p id="notice">
+ <%= notice %> 
+</p>
+
+<span><b>Title</b>
+<%= @book.title %></span><br>
+<span><b>Body</b>
+<%= @book.body %></span>
+<br>
+
+<%= link_to "Edit", edit_book_path(@book.id) %> |
+<span><a href="http://localhost:3000/books">Back</a></span>
+
